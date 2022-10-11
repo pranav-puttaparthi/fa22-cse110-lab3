@@ -56,3 +56,11 @@ p.classnodisplay {
     width: 500px;
     position: static;
 }
+
+button:hover {
+    color: green;
+}
+
+button:active {
+    color: blue;
+}
