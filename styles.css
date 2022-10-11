@@ -72,3 +72,7 @@ button:hover {
 button:active {
     color: blue;
 }
+
+footer > h3 {
+    font-family: 'Permanent Marker', cursive;
+}
