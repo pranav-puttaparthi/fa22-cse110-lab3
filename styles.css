@@ -1,19 +1,7 @@
-h1 {
-    color: red;
+#recordings > h2, h3 {
+    text-decoration: underline dotted;
 }
 
-h2 {
-    color: hsl(30, 50%, 50%);
-}
-
-h3 {
-    color: #ff8800;
-}
-
-li > b {
-    color: rgb(200, 150, 171);
-}
-
-i {
-    color: hsla(99, 38%, 48%, 0.8);
+#unfinishedbusiness p {
+    text-align: center;
 }
