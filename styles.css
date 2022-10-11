@@ -25,3 +25,17 @@ i {
 #unfinishedbusiness p {
     text-align: center;
 }
+
+[src="team2546meetingrecording.mp4"] {
+    max-height: 600px;
+    min-width: 25pc;
+}
+[src="team2546meetingrecordingaudio.wav"] {
+    max-width: 5in;
+}
+
+#randomform .textbox {
+    height: 400px;
+    width: 500px;
+    position: static;
+}
