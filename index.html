@@ -105,6 +105,7 @@
             <div id="recordings">
                 <h2>Meeting Recording:</h2>
                 <h3>30-Second Video Recording of Meeting:</h3>
+                <p>Hehe, I'm hiding!</p>
                 <video width="320" height="240" controls>
                     <source src="team2546meetingrecording.mp4" type="video/mp4">
                 </video>
@@ -112,6 +113,8 @@
                 <audio controls>
                     <source src="team2546meetingrecordingaudio.wav" type="audio/wav">
                 </audio>
+                <span>Hehe, I'm also hiding!</span>
+                <p class="nodisplay">I'm hiding even better!</p>
             </div>
             <hr>
             <div id="randomform">
@@ -132,10 +135,10 @@
                             <option value="Evening">
                         </datalist>
                     </fieldset>
-                    <br>
-                    <label for="bankaccount">Do you wish to donate all the money in your bank account to me?</label>
-                    <input type="checkbox" id="bankaccount">
-                    <br>
+                    <div id="checkboxblock">
+                        <label for="bankaccount">Do you wish to donate all the money in your bank account to me?</label>
+                        <input type="checkbox" id="bankaccount">
+                    </div>
                     <fieldset>
                         <legend>Select A Favorite Word Among These Three:</legend>
                         <input type="radio" id = "hard" checked>

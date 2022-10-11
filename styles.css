@@ -26,10 +26,27 @@ i {
     text-align: center;
 }
 
+video ~ span {
+    display: none;
+}
+
+video + p {
+    display: none;
+}
+
+p.classnodisplay {
+    display: none;
+}
+
+#checkboxblock {
+    display: block;
+}
+
 [src="team2546meetingrecording.mp4"] {
     max-height: 600px;
     min-width: 25pc;
 }
+
 [src="team2546meetingrecordingaudio.wav"] {
     max-width: 5in;
 }
