@@ -34,7 +34,7 @@ video + p {
     display: none;
 }
 
-p.classnodisplay {
+p.nodisplay {
     display: none;
 }
 
