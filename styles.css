@@ -44,7 +44,7 @@ p.nodisplay {
 
 #borderfield {
     border-style: solid;
-    border-width: 800px;
+    border-width: 100px;
     border-color: purple;
     border-radius: 10px;
 }
