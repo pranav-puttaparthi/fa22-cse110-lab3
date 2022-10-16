@@ -1,7 +1,9 @@
 # Team 2546 Standup Meeting Notes
 
-## What did we work on yesterday?
+### How do you feel today?
 
-## What are we working on today?
+### What have you done since yesterday?
 
-## What issues are blocking us?
+### What will you do today?
+
+### Anything blocking your progress?
