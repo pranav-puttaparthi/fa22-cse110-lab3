@@ -1,47 +1,59 @@
+/* make largest heading the color red */
 h1 {
     color: red;
 }
 
+/* make second largest heading this color */
 h2 {
     color: hsl(30, 50%, 50%);
 }
 
+/* make third largest heading this orangey color */
 h3 {
     color: #ff8800;
 }
 
+/* make bold tag childs of list item this particular color */
 li > b {
     color: rgb(200, 150, 171);
 }
 
+/* make italic text this particular color */
 i {
     color: hsla(99, 38%, 48%, 0.8);
 }
 
+/* dotted underline second and third largest headings in the Meeting Recordings section */
 #recordings > h2, h3 {
     text-decoration: underline dotted;
 }
 
+/* align this text to the center */
 #unfinishedbusiness p {
     text-align: center;
 }
 
+/* hide this text */
 video ~ span {
     display: none;
 }
 
+/* hide this text too */
 video + p {
     display: none;
 }
 
+/* hide this text as well */
 p.nodisplay {
     display: none;
 }
 
+/* hide this text just the same*/
 #checkboxblock {
     display: block;
 }
 
+/* as some styling to this border */
 #borderfield {
     border-style: solid;
     border-width: 1px;
@@ -49,50 +61,60 @@ p.nodisplay {
     border-radius: 10px;
 }
 
+/* size the video's max width and min height */
 [src="team2546meetingrecording.mp4"] {
     max-height: 600px;
     min-width: 25pc;
     position: relative;
 }
 
+/* set the max width for the audio recording to 5 inches */
 [src="team2546meetingrecordingaudio.wav"] {
     max-width: 5in;
 }
 
+/* set the text area in the form to be a specific width and height */
 #randomform .textbox {
     height: 400px;
     width: 500px;
     position: static;
 }
 
+/* the submit button turns green if hovered over */
 button:hover {
     color: green;
 }
 
+/* the submit button turns blue if clicked */
 button:active {
     color: #00f;
 }
 
+/* flex container that's set to wrap its elements */
 #flexer {
     display: flex;
     flex-wrap: wrap;
 }
 
+/* an item in the flex container */
 #flexboxing1 {
     flex-grow: 1;
     flex-shrink: 1;
 }
 
+/* another item in the flex container */
 #flexboxing2 {
     flex-grow: 1;
     flex-shrink: 1;
 }
 
+/* a third item in the flex container */
 #flexboxing3 {
     flex-grow: 1;
     flex-shrink: 1;
 }
 
+/* add grid styling to the "Hard to choose" options in the form */
 #hardtochooseoptions {
     display: grid;
     grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [end];
@@ -100,6 +122,7 @@ button:active {
     align-items: center;
 }
 
+/* set the third-largest headings in the footer to the custom font */
 footer > h3 {
     font-family: 'Permanent Marker', cursive;
 }
