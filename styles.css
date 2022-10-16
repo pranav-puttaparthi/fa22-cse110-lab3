@@ -93,6 +93,13 @@ button:active {
     flex-shrink: 1;
 }
 
+#onetofouroptions {
+    display: grid;
+    grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [end];
+    grid-column-gap: auto;
+    align-items: center;
+}
+
 footer > h3 {
     font-family: 'Permanent Marker', cursive;
 }
