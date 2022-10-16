@@ -2,13 +2,15 @@
 
 ##### Meeting Location & Start Time:
 
-### How do you feel today?
+##### Meeting Attendants:
 
-### What have you done since yesterday?
+### How do we feel today?
 
-### What will you do today?
+### What have we done since yesterday?
 
-### Anything blocking your progress?
+### What will we do today?
+
+### Anything blocking our progress?
 
 ##### Meeting End Time:
 
