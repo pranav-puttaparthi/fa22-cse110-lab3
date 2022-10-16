@@ -10,4 +10,6 @@
 
 ### Anything blocking your progress?
 
-##### Meeting Location & End Time:
+##### Meeting End Time:
+
+##### Standup Meeting Note Taker:
