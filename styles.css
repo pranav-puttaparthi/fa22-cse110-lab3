@@ -73,6 +73,26 @@ button:active {
     color: blue;
 }
 
+#flexer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#flexboxing1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#flexboxing2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#flexboxing3 {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
 footer > h3 {
     font-family: 'Permanent Marker', cursive;
 }
