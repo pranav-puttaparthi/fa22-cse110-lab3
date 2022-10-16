@@ -93,7 +93,7 @@ button:active {
     flex-shrink: 1;
 }
 
-#onetofouroptions {
+#hardtochooseoptions {
     display: grid;
     grid-template-columns: [first] auto [second] auto [third] auto [fourth] auto [end];
     grid-column-gap: auto;
